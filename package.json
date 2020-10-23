@@ -2,12 +2,13 @@
   "scripts": {
     "dev": "snowpack dev",
     "build": "snowpack build",
-    "test": "echo \"This template does not include a test runner by default.\" && exit 1",
+    "test": "elm-test",
     "format": "prettier --write \"src/**/*.js\"",
     "lint": "prettier --check \"src/**/*.js\""
   },
   "dependencies": {},
   "devDependencies": {
+    "elm-test": "^0.19.1-revision4",
     "prettier": "2.1.2",
     "snowpack": "^2.14.0",
     "snowpack-plugin-elm": "^0.3.2"
