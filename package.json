@@ -6,11 +6,10 @@
     "format": "prettier --write \"src/**/*.js\"",
     "lint": "prettier --check \"src/**/*.js\""
   },
-  "dependencies": {},
   "devDependencies": {
-    "elm-test": "^0.19.1-revision4",
-    "prettier": "2.1.2",
-    "snowpack": "^2.14.0",
+    "elm-test": "^0.19.1-revision6",
+    "prettier": "^2.1.2",
+    "snowpack": "^3.0.11",
     "snowpack-plugin-elm": "^0.3.2"
   }
 }
