@@ -21,7 +21,10 @@ module.exports = {
     src: '/_dist_',
   },
   exclude: excludeEverythingButEntryPoints('Sandbox1.elm'),
-  plugins: [['snowpack-plugin-elm', { verbose: true }]],
+  plugins: [
+    ['snowpack-plugin-elm', { verbose: true }],
+    ['@snowpack/plugin-sass'],
+  ],
   devOptions: {
     open: 'none',
     output: 'stream',

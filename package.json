@@ -8,6 +8,7 @@
     "lint": "prettier --check \"src/**/*.js\""
   },
   "devDependencies": {
+    "@snowpack/plugin-sass": "^1.3.0",
     "elm-test": "^0.19.1-revision6",
     "fast-glob": "^3.2.5",
     "prettier": "^2.1.2",
