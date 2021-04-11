@@ -11,8 +11,8 @@ function excludeEverythingButEntryPoints(entryPoints) {
     .sync('src/*.elm', {
       ignore: entryPoints.map((v) => `src/${v}`),
     })
-    .map((v) => v.replace(/^src\//, ''))
-    .concat('*/*.elm');
+    .map((v) => v.replace(/^src\//, '**/'))
+    .concat('**/*/*.elm');
 }
 
 module.exports = {
